@@ -1,0 +1,66 @@
+:root {
+    /* Font Family */
+    --font-primary: "Amatic SC", sans-serif;
+    --font-secondary: "Oswald", sans-serif;
+    /* Color */
+    --background-white: #FEFBF6;
+    --color-primary: #EA5C2B;
+    --color-secondary: #FF7F3F;
+    --color-yellow: #F6D860;
+    --color-green: #95CD41;
+}
+
+.header {
+    padding: 0 5vw 0 5vw;
+    background-color: white;
+    box-shadow: 1px 1px 10px black;
+    height: 80px;
+}
+
+div.container {
+    .d-flex.align-items-center.justify-content-between {
+        margin: 0;
+    }
+    .containerHeader {
+        .container {
+            max-width: 100%;
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+    }
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.logo h1 {
+    font-size: 60px;
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    font-size: 25px;
+    font-family: var(--font-secondary);
+    color: black;
+    text-decoration: none;
+}
+
+.pesan {
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 30px;
+    width: 155px;
+    height: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--font-primary);
+    color: white;
+}
