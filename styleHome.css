@@ -15,10 +15,8 @@ body {
 
 .container {
     max-width: 100%;
-    /* padding-top: 10px; */
     padding-right: 0px;
     padding-left: 0px;
-    /* padding-bottom: 100px; */
 }
 
 div.row.rowHero {
@@ -184,12 +182,11 @@ div.content {
 .grid-item img {
     width: 100%;
     height: auto;
-    cursor: pointer;
     transition: transform .3s;
 }
 
-.grid-item img:hover {
-    transform: scale(1.1);
+.imgHover img:hover {
+    cursor: pointer;
 }
 
 .left-column {
@@ -324,6 +321,13 @@ p {
     border-radius: 20px;
 }
 
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .about-section {
     padding-top: 5vw;
     padding-bottom: 5vw;
@@ -448,8 +452,8 @@ p {
 
 @media screen and (max-width: 767px) {
     .footer {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 20;
+        padding-right: 20;
     }
     .footer .row {
         flex-direction: column;
