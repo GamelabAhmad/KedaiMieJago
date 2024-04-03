@@ -13,13 +13,17 @@ body {
     justify-content: center;
 }
 
+svg {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     max-width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
 }
+
 .container-hero {
-    padding-top: 10vw;
+    padding-top: 20vh;
 }
 
 div.row.rowHero {
@@ -405,6 +409,10 @@ p {
     color: white;
     background-color: black;
     font-weight: lighter;
+}
+
+div #footer.container {
+    padding: 0;
 }
 
 .footer .row>.col-3:nth-child(3) {

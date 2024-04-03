@@ -40,6 +40,11 @@ h1 {
     color: var(--color-default);
 }
 
+h1 {
+    font-family: var(--font-primary);
+    color: var(--color-default);
+}
+
 h2,
 h3,
 h4,
@@ -101,8 +106,9 @@ div.container d-flex align-items-center justify-content-between {
 --------------------------------------------------------------*/
 
 .menu {
-    padding: 10vw;
+    padding-top: 20vh;
 }
+
 .menu .nav-tabs {
     border: 0;
 }
@@ -251,5 +257,39 @@ div.container d-flex align-items-center justify-content-between {
     }
     .footer .col-3:not(:first-child) {
         margin-top: 20px;
+    }
+    .header {
+        height: auto;
+        width: 100%;
+    }
+    .logo h1 {
+        font-size: 36px;
+    }
+    .navbar ul li a {
+        font-size: 20px;
+    }
+    .pesan {
+        margin-left: 15px;
+        width: 120px;
+        height: 40px;
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header {
+        height: 60px;
+    }
+    .logo h1 {
+        font-size: 48px;
+    }
+    .navbar ul li a {
+        font-size: 22px;
+    }
+    .pesan {
+        margin-left: 20px;
+        width: 140px;
+        height: 40px;
+        font-size: 26px;
     }
 }
