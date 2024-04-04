@@ -26,35 +26,51 @@ svg {
     padding-top: 20vh;
 }
 
-div.row.rowHero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-div.row {
-    max-width: 100%;
-    margin: 0px;
-}
-
-div.col {
-    .col {
-        flex: 1;
-        /* Membuat setiap kolom fleksibel untuk mengisi ruang yang tersedia */
-        padding: 10px;
-        /* Atur padding sesuai kebutuhan */
-        box-sizing: border-box;
-        /* Perhitungan padding dan border di dalam ukuran elemen */
+div {
+    .row.rowHero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-}
-
-div.content {
-    padding: 5vw;
-}
-
-.section-header {
-    text-align: center;
-    padding-bottom: 30px;
+    .row {
+        max-width: 100%;
+        margin: 0px;
+    }
+    .col {
+        .col {
+            flex: 1;
+            /* Membuat setiap kolom fleksibel untuk mengisi ruang yang tersedia */
+            padding: 10px;
+            /* Atur padding sesuai kebutuhan */
+            box-sizing: border-box;
+            /* Perhitungan padding dan border di dalam ukuran elemen */
+        }
+    }
+    .content {
+        padding: 5vw;
+    }
+    .section-header {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .col.image-container {
+        margin: 0;
+        padding-top: 15vw;
+        padding-bottom: 15vw;
+    }
+    .imageDisplay {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    #footer.container {
+        padding: 0;
+    }
+    .col-lg-6.align-text {
+        padding-bottom: 5vh;
+    }
 }
 
 .section-header h2 {
@@ -207,12 +223,11 @@ div.content {
 .grid-item {
     position: relative;
     overflow: hidden;
-}
-
-.grid-item img {
-    width: 100%;
-    height: auto;
-    transition: transform .3s;
+    img {
+        width: 100%;
+        height: auto;
+        transition: transform .3s;
+    }
 }
 
 .imgHover img:hover {
@@ -263,20 +278,6 @@ img {
         width: 100%;
         height: auto;
     }
-}
-
-div.col.image-container {
-    margin: 0;
-    padding-top: 15vw;
-    padding-bottom: 15vw;
-}
-
-.imageDisplay {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
 }
 
 .image-groupBot {
@@ -432,10 +433,6 @@ p {
     color: white;
     background-color: black;
     font-weight: lighter;
-}
-
-div #footer.container {
-    padding: 0;
 }
 
 .footer .row>.col-3:nth-child(3) {
