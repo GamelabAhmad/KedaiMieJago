@@ -1,5 +1,5 @@
 :root {
-    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-default: 'Oswald', sans-serif;
     --font-primary: "Amatic SC", sans-serif;
     --font-secondary: "Inter", sans-serif;
 }
@@ -23,6 +23,7 @@
 body {
     font-family: var(--font-default);
     color: var(--color-default);
+    background-color: #F5F5F5;
 }
 
 a {
@@ -40,9 +41,11 @@ h1 {
     color: var(--color-default);
 }
 
-h1 {
-    font-family: var(--font-primary);
-    color: var(--color-default);
+h2.subMenu {
+    background-color: #F5F5F5;
+    h2:hover {
+        background-color: #F5F5F5;
+    }
 }
 
 h2,
@@ -152,11 +155,13 @@ div.container d-flex align-items-center justify-content-between {
 
 .menu .nav-link:hover {
     color: var(--color-primary);
+    background-color: #F5F5F5;
 }
 
 .menu .nav-link.active {
     color: var(--color-primary);
     border-color: var(--color-primary);
+    background-color: #F5F5F5;
 }
 
 .menu .tab-content .tab-header {

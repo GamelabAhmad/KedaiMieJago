@@ -52,6 +52,29 @@ div.content {
     padding: 5vw;
 }
 
+.section-header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;
+    font-family: var(--font-default);
+}
+
+.section-header p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: var(--font-primary);
+}
+
 .contentContainer {
     display: flex;
     margin-left: 3vw;
@@ -336,8 +359,8 @@ p {
 }
 
 .about-section {
-    padding-top: 5vw;
-    padding-bottom: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     background-color: #F6D860;
 }
 
@@ -477,12 +500,14 @@ div #footer.container {
     }
 }
 
+
 /* about */
-span{
+
+span {
     color: #EA5C2B;
 }
 
-h3{
-            margin-top: 70px;
-            margin-bottom: 5px;
+h3 {
+    margin-top: 70px;
+    margin-bottom: 5px;
 }
